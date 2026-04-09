@@ -5,7 +5,7 @@
     "day": 1,
     "title": "Introduction to Python",
     "description": "Set up Python environment, learn about variables, data types, and basic syntax.",
-    "completed": false,
+    "completed": true,
     "createdAt": "2026-04-05T16:54:49.368Z"
   },
   {
@@ -14,7 +14,7 @@
     "day": 2,
     "title": "Control Structures",
     "description": "Understand conditional statements and loops (if, for, while).",
-    "completed": false,
+    "completed": true,
     "createdAt": "2026-04-05T16:54:49.368Z"
   },
   {
@@ -23,7 +23,7 @@
     "day": 3,
     "title": "Data Structures",
     "description": "Learn about lists, tuples, sets, and dictionaries.",
-    "completed": false,
+    "completed": true,
     "createdAt": "2026-04-05T16:54:49.368Z"
   },
   {
@@ -32,7 +32,7 @@
     "day": 4,
     "title": "Functions",
     "description": "Understand how to define and call functions, and learn about parameters and return values.",
-    "completed": false,
+    "completed": true,
     "createdAt": "2026-04-05T16:54:49.368Z"
   },
   {
@@ -41,7 +41,7 @@
     "day": 5,
     "title": "Modules and Packages",
     "description": "Learn how to import and use modules, and understand package management with pip.",
-    "completed": false,
+    "completed": true,
     "createdAt": "2026-04-05T16:54:49.368Z"
   },
   {
@@ -50,7 +50,7 @@
     "day": 6,
     "title": "File Handling",
     "description": "Learn how to read from and write to files in Python.",
-    "completed": false,
+    "completed": true,
     "createdAt": "2026-04-05T16:54:49.368Z"
   },
   {
@@ -124,5 +124,77 @@
     "description": "Review what you've learned, seek feedback, and plan next steps for further learning.",
     "completed": false,
     "createdAt": "2026-04-05T16:54:49.368Z"
+  },
+  {
+    "id": "1775714653185-0-1775714653188",
+    "goalId": "1775714653185",
+    "day": 1,
+    "title": "HTML & CSS Basics",
+    "description": "Learn the structure of HTML documents and how to style them using CSS. Complete exercises on creating a basic webpage.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:04:13.188Z"
+  },
+  {
+    "id": "1775714653185-1-1775714653188",
+    "goalId": "1775714653185",
+    "day": 2,
+    "title": "JavaScript Fundamentals",
+    "description": "Cover the basics of JavaScript including variables, data types, functions, and control structures. Practice coding simple scripts.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:04:13.188Z"
+  },
+  {
+    "id": "1775714653185-2-1775714653188",
+    "goalId": "1775714653185",
+    "day": 3,
+    "title": "Build a Simple Web Project",
+    "description": "Combine your knowledge of HTML, CSS, and JavaScript to create a simple web application, such as a personal portfolio or a to-do list app.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:04:13.188Z"
+  },
+  {
+    "id": "1775715753572-0-1775715753575",
+    "goalId": "1775715753572",
+    "day": 1,
+    "title": "Introduction to JavaScript",
+    "description": "Learn about JavaScript history, its role in web development, and get familiar with variables, data types, and basic syntax.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:22:33.575Z"
+  },
+  {
+    "id": "1775715753572-1-1775715753575",
+    "goalId": "1775715753572",
+    "day": 2,
+    "title": "Control Structures and Functions",
+    "description": "Understand if statements, loops (for, while), and function creation and invocation.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:22:33.575Z"
+  },
+  {
+    "id": "1775715753572-2-1775715753575",
+    "goalId": "1775715753572",
+    "day": 3,
+    "title": "DOM Manipulation",
+    "description": "Learn how to select HTML elements, modify them, and handle events using JavaScript.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:22:33.575Z"
+  },
+  {
+    "id": "1775715753572-3-1775715753575",
+    "goalId": "1775715753572",
+    "day": 4,
+    "title": "Asynchronous JavaScript",
+    "description": "Understand callbacks, promises, and the fetch API to handle asynchronous operations.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:22:33.575Z"
+  },
+  {
+    "id": "1775715753572-4-1775715753575",
+    "goalId": "1775715753572",
+    "day": 5,
+    "title": "Build Your First Project",
+    "description": "Create a simple interactive web application that incorporates everything learned throughout the week.",
+    "completed": false,
+    "createdAt": "2026-04-09T06:22:33.575Z"
   }
 ]

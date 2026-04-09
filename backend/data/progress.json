@@ -6,5 +6,21 @@
     "progressParcentage": 0,
     "id": "1775408089365-1775408089369",
     "timestamp": "2026-04-05T16:54:49.369Z"
+  },
+  {
+    "goalId": "1775714653185",
+    "completedTasks": 0,
+    "totalTasks": 3,
+    "progressParcentage": 0,
+    "id": "1775714653185-1775714653189",
+    "timestamp": "2026-04-09T06:04:13.189Z"
+  },
+  {
+    "goalId": "1775715753572",
+    "completedTasks": 0,
+    "totalTasks": 5,
+    "progressParcentage": 0,
+    "id": "1775715753572-1775715753576",
+    "timestamp": "2026-04-09T06:22:33.576Z"
   }
 ]

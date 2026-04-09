@@ -56,6 +56,60 @@ const analyzeGoal = async (goalText, durationDays) => {
   }
 }
 
+const evaluateProgress = async (goal, completedTasks, totalTasks, days) => {
+  const completionRate = ((completedTasks / totalTasks) * 100).toFixed(2); // 72
+  const expectedRate = ((days / goal.durationDays) * 100).toFixed(2);  // 90
+  const onTrack = completionRate >= expectedRate - 10
+
+  const prompt = `Learning Goal: "${goal.title}"
+  Duration: "${goal.durationDays}"
+  Days Elapsed: ${days} days
+  Task Completion Rate: ${completionRate}  
+  Expected Task completion rate: ${expectedRate}
+  status: ${onTrack ? "ON TRACK" : "BEHIND"}
+
+  Generate: 
+  1. Performance analysis
+  2. Specific encouragement 
+  3. Recommend next action (just 1-3 lines)
+  4. Weekly tips
+
+  Return as JSON: 
+  {
+    "analysis": ".....",
+    "encourgement": ".....",
+    "nextAction": ".....",
+    "tip": "....."
+  }
+  `
+
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        {
+          role: 'system',
+          content: "You are a supportive and smart productivity coach. Be encouraging but honest. Adapt your tone based on progress."
+        },
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      temperature: 0.8,
+    })
+
+    const content = response.choices[0].message.content;
+    const jsonMatch = content.match(/\{[\s\S]*\}/)
+    return JSON.parse(jsonMatch)
+
+  } catch (err) {
+    console.error(err)
+  }
+
+}
+
 module.exports = {
-  analyzeGoal
+  analyzeGoal,
+  evaluateProgress
 }

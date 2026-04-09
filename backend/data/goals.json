@@ -1,7 +1,7 @@
 [
   {
     "title": "Learn Python",
-    "durationDays": "14 days",
+    "durationDays": 14,
     "plan": {
       "milestones": [
         "Understand Python fundamentals and syntax",
@@ -97,5 +97,101 @@
     "status": "active",
     "id": "1775408089365",
     "createdAt": "2026-04-05T16:54:49.365Z"
+  },
+  {
+    "title": "Learn Web Development",
+    "durationDays": 3,
+    "plan": {
+      "milestones": [
+        "Understand HTML and CSS basics",
+        "Learn JavaScript fundamentals",
+        "Build a simple web project"
+      ],
+      "dailyTasks": [
+        {
+          "day": 1,
+          "title": "HTML & CSS Basics",
+          "description": "Learn the structure of HTML documents and how to style them using CSS. Complete exercises on creating a basic webpage."
+        },
+        {
+          "day": 2,
+          "title": "JavaScript Fundamentals",
+          "description": "Cover the basics of JavaScript including variables, data types, functions, and control structures. Practice coding simple scripts."
+        },
+        {
+          "day": 3,
+          "title": "Build a Simple Web Project",
+          "description": "Combine your knowledge of HTML, CSS, and JavaScript to create a simple web application, such as a personal portfolio or a to-do list app."
+        }
+      ],
+      "successMetrics": [
+        "Completion of HTML and CSS exercises",
+        "Successfully write and run JavaScript code snippets",
+        "Deployment of a simple web project that showcases HTML, CSS, and JavaScript"
+      ],
+      "challenges": [
+        "Time management - balancing learning with practice",
+        "Overcoming frustration with coding errors",
+        "Maintaining focus during intensive study sessions"
+      ],
+      "motivationalApproach": "Set small goals for each task and reward yourself upon completion. Share your progress with a friend or mentor for accountability, and remind yourself of the long-term benefits of learning web development."
+    },
+    "status": "active",
+    "id": "1775714653185",
+    "createdAt": "2026-04-09T06:04:13.185Z"
+  },
+  {
+    "title": "Learn JS",
+    "durationDays": 5,
+    "plan": {
+      "milestones": [
+        "Understand the basics of JavaScript syntax and data types",
+        "Learn control structures (loops, conditionals) and functions",
+        "Master DOM manipulation and event handling",
+        "Understand asynchronous JavaScript and APIs",
+        "Build a small project using the learned concepts"
+      ],
+      "dailyTasks": [
+        {
+          "day": 1,
+          "title": "Introduction to JavaScript",
+          "description": "Learn about JavaScript history, its role in web development, and get familiar with variables, data types, and basic syntax."
+        },
+        {
+          "day": 2,
+          "title": "Control Structures and Functions",
+          "description": "Understand if statements, loops (for, while), and function creation and invocation."
+        },
+        {
+          "day": 3,
+          "title": "DOM Manipulation",
+          "description": "Learn how to select HTML elements, modify them, and handle events using JavaScript."
+        },
+        {
+          "day": 4,
+          "title": "Asynchronous JavaScript",
+          "description": "Understand callbacks, promises, and the fetch API to handle asynchronous operations."
+        },
+        {
+          "day": 5,
+          "title": "Build Your First Project",
+          "description": "Create a simple interactive web application that incorporates everything learned throughout the week."
+        }
+      ],
+      "successMetrics": [
+        "Completion of daily tasks and quizzes",
+        "Ability to write JavaScript code to solve basic problems",
+        "Successful creation and deployment of a small project"
+      ],
+      "challenges": [
+        "Understanding asynchronous programming concepts",
+        "Debugging and troubleshooting JavaScript code",
+        "Maintaining focus with limited time each day"
+      ],
+      "motivationalApproach": "Set small, achievable goals each day and reward yourself upon completion. Join online forums or study groups for community support and encouragement."
+    },
+    "status": "active",
+    "id": "1775715753572",
+    "createdAt": "2026-04-09T06:22:33.572Z"
   }
 ]
